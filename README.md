@@ -1,4 +1,4 @@
-# Jefferson Lab Electronic Logbook Bootstrap Subtheme for cclogbooks
+# Jefferson Lab Electronic Logbook Bootstrap Subtheme for hdanalysis
 =====
 
 ## Prerequisites
