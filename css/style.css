@@ -62,7 +62,8 @@ body{
 #navbar div.region-menu{
   display: inline-block;
   width: 100%;
-  background-color: #9C9FDA;
+/*  background-color: #9C9FDA; */
+  background-color: #3B656A; 
 }
 
 #navbar div.region-menu a{
@@ -78,16 +79,21 @@ body{
 }
 
 #navbar div.region-menu ul.dropdown-menu{
-  background-color: #C3C5E7;
+  background-color: #6E8B8F;
 }
 
-#navbar div.region-menu ul.dropdown-menu a{
+#navbar div.region-menu ul.dropdown-menu a:hover{
   color: black;
 }
 
 #navbar div.region-menu ul.dropdown-menu a{
   color: white;
-  background-color: #C3C5E7;
+  background-color: #6E8B8F;
+}
+
+.nav .open>a {
+  color: white;
+  background-color: #6E8B8F;
 }
 
 #logo a {
@@ -112,7 +118,7 @@ body{
 * Block styles
 */
 .block-title.collapsiblock {
-  background-color: #C3C5E7;
+  background-color: #6E8B8F;
   border-radius: 8px 8px 0 0;
   color: black;
   font-size: 20px;
