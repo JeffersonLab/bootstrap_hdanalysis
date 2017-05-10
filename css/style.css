@@ -33,18 +33,6 @@ body{
 }
 
 
-/*
-#block-search-form {
-  width:250px;
-  padding-top:3px;
-  height:40px;
-}
-
-#block-system-navigation {
-  float: left;
-}
-*/
-
 #navbar .block-search{
   width:250px;
   padding-top:3px;
@@ -114,6 +102,14 @@ body{
  display: inline-block;
 }
 
+.user-auth{
+  color: lightgray;
+}
+
+.user-auth a{
+  color: white;
+}
+
 /**
 * Block styles
 */
@@ -121,7 +117,8 @@ body{
   background-color: #6E8B8F;
   border-radius: 8px 8px 0 0;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
+  padding-left: 4px;
 }
 
 .block-title.collapsiblock a{
@@ -132,7 +129,34 @@ body{
 /**
 * Form display styles
 */
+.field-widget-elog-taxonomy-select2{
+  margin-top: 5px;
+}
 
+.field-widget-elog-taxonomy-select2 div.select2-container {
+  display: inline-block;
+}
+
+.table-responsive {
+  overflow-x: visible !important;
+}
+
+#elog-form-advanced-filters .form-control{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  width: auto;
+}
+
+#elog-form-advanced-filters .form-group{
+  margin-bottom: 5px;
+}
+
+#elog-form-advanced-filters div.form-item{
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 0;
+}
 
 /**
 *  Logentry node styles
@@ -141,3 +165,37 @@ body{
 article .panel-title a{
   color: #337ab7;
 }
+
+.prev-next{
+  margin-top: 8px;
+}
+
+article .panel-title a{
+  color: #337ab7;
+}
+
+table.field-vitals{
+   margin-top: 1em;
+   margin-bottom: 1em;
+   font-size: 87.5%;
+}
+
+table.field-vitals th{
+   vertical-align: middle;
+   text-align: left;
+   width: 15%;
+   padding: 0.1em;
+}
+
+table.field-vitals td{
+   vertical-align: middle;
+   text-align: left;
+   width: auto;
+   padding: 0.1em;
+}
+table.field-vitals td li {
+  margin-left: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
